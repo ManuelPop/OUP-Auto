@@ -14,9 +14,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 
-import com.ixxus.ipm.automation.steps.alfresco.DocumentLibrarySteps;
 import com.ixxus.ipm.automation.steps.alfresco.LoginSteps;
-import com.ixxus.oup.steps.DocumentLibraryStepsOUP;
 import com.ixxus.oup.tools.ApplicationOUP;
 import com.ixxus.oup.tools.ConstantsOUP;
 
@@ -33,10 +31,6 @@ public class Test01_OUP_Login extends TestCase {
 
     @Steps
     private LoginSteps loginSteps;
-    @Steps
-    private DocumentLibrarySteps documentLibrarySteps;
-    @Steps
-    private DocumentLibraryStepsOUP documentLibraryStepsOUP;
 
     String username, password;
 
