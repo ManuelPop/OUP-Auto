@@ -18,7 +18,7 @@ import com.ixxus.ipm.automation.steps.alfresco.LoginSteps;
 import com.ixxus.oup.tools.ApplicationOUP;
 import com.ixxus.oup.tools.ConstantsOUP;
 
-@Story(ApplicationOUP.Login.LoginToShare.class)
+@Story(ApplicationOUP.Login.LoginIntoShare.class)
 @RunWith(SerenityParameterizedRunner.class)
 @UseTestDataFrom(value = ConstantsOUP.CSV_FILES_PATH + "Test01_OUP_Login.csv", separator = ConstantsOUP.CSV_SEPARATOR)
 public class Test01_OUP_Login extends TestCase {
