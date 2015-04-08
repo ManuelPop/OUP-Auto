@@ -75,6 +75,7 @@ public class STest23_OUP_AddTagsFromDocumentDetailsPage extends
 
         documentDetailsSteps.editTagsButtonClick();
         editPropertiesDocumentSteps.selectTagsButtonClick();
+
         selectTagsPopUpMenuSteps.removeAttachedTagFromAssetRightList(newtag);
         selectTagsPopUpMenuSteps.verifyTagIsRemovedFromTagsList(newtag);
         selectTagsPopUpMenuSteps.okButtonOnTagsPopUpClick();
