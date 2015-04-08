@@ -8,4 +8,6 @@ public class ConstantsOUP {
     public static final char CSV_SEPARATOR = ',';
 	public static final String TESTDATA_FILES_PATH = "src/test/resources/";
 
+	public static final String PREFIXS_TAG = "testtag";
+
 }

@@ -4,7 +4,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
-import com.ixxus.oup.tests.Test15_OUP_VersionHistorySection;
+import com.ixxus.ipm.automation.alfresco.STest23_AddTagsFromDocumentDetailsPage;
 
 @RunWith(Suite.class)
 @SuiteClasses({
@@ -77,7 +77,7 @@ import com.ixxus.oup.tests.Test15_OUP_VersionHistorySection;
     //        Test64_InstantSearchResultsPeople.class,
     //    STest66_SearchResultsCopyAFile.class,
 //    STest67_SearchResultsMoveAFile.class,
-Test15_OUP_VersionHistorySection.class,
+STest23_AddTagsFromDocumentDetailsPage.class,
 // STest_DeleteAllSites.class,
 
 })
