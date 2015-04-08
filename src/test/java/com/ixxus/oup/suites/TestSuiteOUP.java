@@ -4,7 +4,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
-import com.ixxus.oup.tests.Test07_OUP_DocumentDetailsUploadNewVersion;
+import com.ixxus.oup.tests.Test15_OUP_VersionHistorySection;
 
 @RunWith(Suite.class)
 @SuiteClasses({
@@ -77,7 +77,7 @@ import com.ixxus.oup.tests.Test07_OUP_DocumentDetailsUploadNewVersion;
     //        Test64_InstantSearchResultsPeople.class,
     //    STest66_SearchResultsCopyAFile.class,
 //    STest67_SearchResultsMoveAFile.class,
-		Test07_OUP_DocumentDetailsUploadNewVersion.class,
+Test15_OUP_VersionHistorySection.class,
 // STest_DeleteAllSites.class,
 
 })
