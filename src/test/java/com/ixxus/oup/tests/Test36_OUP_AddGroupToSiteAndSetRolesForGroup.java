@@ -21,10 +21,10 @@ import com.ixxus.ipm.automation.steps.alfresco.ShareHeaderSteps;
 import com.ixxus.ipm.automation.steps.alfresco.SiteFinderSteps;
 import com.ixxus.ipm.automation.steps.alfresco.SiteGroupsSteps;
 import com.ixxus.ipm.automation.steps.alfresco.SiteHeaderSteps;
-import com.ixxus.ipm.automation.tools.alfresco.Application;
+import com.ixxus.oup.tools.ApplicationOUP;
 import com.ixxus.oup.tools.ConstantsOUP;
 
-@Story(Application.Groups.AddGroupToSiteAndSetRolesForGroup.class)
+@Story(ApplicationOUP.Groups.AddGroupToSiteAndSetRolesForGroup.class)
 @RunWith(SerenityParameterizedRunner.class)
 @UseTestDataFrom(value = ConstantsOUP.CSV_FILES_PATH
 		+ "Test36_OUP_AddGroupsToSitesAndAddRolesToGroups.csv", separator = ConstantsOUP.CSV_SEPARATOR)
@@ -62,7 +62,7 @@ public class Test36_OUP_AddGroupToSiteAndSetRolesForGroup extends
     }
     
     @Test
-    @Title("Test36 - Add Groups to sites and add roles to groups")
+	@Title("Test36 - OUP - Add Groups to sites and add roles to groups")
     public void test36_AddGroupsToSitesAndAddRolesToGroups() {
         shareHeaderSteps.adminToolsButtonClick();
         adminToolsNavigationSteps.adminToolsGroupsMenuClick();
