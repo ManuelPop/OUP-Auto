@@ -11,11 +11,11 @@ import org.junit.runner.RunWith;
 
 import com.ixxus.ipm.automation.steps.alfresco.DocumentLibrarySteps;
 import com.ixxus.ipm.automation.steps.alfresco.SiteHeaderSteps;
-import com.ixxus.ipm.automation.tools.alfresco.Application;
 import com.ixxus.ipm.automation.tools.alfresco.Constants;
+import com.ixxus.oup.tools.ApplicationOUP;
 import com.ixxus.oup.tools.ConstantsOUP;
 
-@Story(Application.VersionControl.UploadNewVersion.class)
+@Story(ApplicationOUP.VersionControl.UploadNewVersion.class)
 @RunWith(SerenityParameterizedRunner.class)
 @UseTestDataFrom(value = ConstantsOUP.CSV_FILES_PATH + "Test06_OUP_UploadNewVersion.csv", separator = Constants.CSV_SEPARATOR)
 public class Test06_OUP_UploadNewVersion extends AbstractBaseSiteTestOUP {
