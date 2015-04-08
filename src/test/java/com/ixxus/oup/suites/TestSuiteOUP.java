@@ -4,7 +4,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
-import com.ixxus.ipm.automation.alfresco.Test63_InstantSearchResultsDocuments;
+import com.ixxus.oup.tests.Test07_OUP_DocumentDetailsUploadNewVersion;
 
 @RunWith(Suite.class)
 @SuiteClasses({
@@ -73,12 +73,12 @@ import com.ixxus.ipm.automation.alfresco.Test63_InstantSearchResultsDocuments;
         //    Test60_ConsumerRole.class,
         //    Test61_UnlockContentLockedByAnotherUser.class,
         //    Test62_ContributorRole.class,
-    Test63_InstantSearchResultsDocuments.class,
+// Test63_InstantSearchResultsDocuments.class,
     //        Test64_InstantSearchResultsPeople.class,
     //    STest66_SearchResultsCopyAFile.class,
 //    STest67_SearchResultsMoveAFile.class,
-//
-//    STest_DeleteAllSites.class,
+		Test07_OUP_DocumentDetailsUploadNewVersion.class,
+// STest_DeleteAllSites.class,
 
 })
 public class TestSuiteOUP {
