@@ -17,6 +17,7 @@ import com.ixxus.oup.tests.Test01_OUP_Login;
         Test01_Login.class,
         Test06_UploadNewVersion.class,
         Test05_AddNewComment.class,
+// comment
 
 })
 public class TestSuiteOUP {
