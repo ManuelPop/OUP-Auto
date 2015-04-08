@@ -107,7 +107,7 @@ public class Test38_OUP_CheckLockedContent extends AbstractBaseSiteTestOUP {
     }
 
     @Test
-    @Title("Test38 - Check locked content")
+	@Title("Test38 - OUP - Check locked content")
     public void test38_CheckLockedContent() {
 		documentLibrarySteps.uploadDocument(ConstantsOUP.TESTDATA_FILES_PATH
 				+ fileName);

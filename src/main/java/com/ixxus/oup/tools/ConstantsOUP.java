@@ -9,6 +9,8 @@ public class ConstantsOUP {
 	public static final String TESTDATA_FILES_PATH = "src/test/resources/";
 	public static final String ALFRESCO_ADMIN_USERNAME = "admin";
 	public static final String ALFRESCO_ADMIN_PASSWORD = "admin";
+	public static final String ALFRESCO_USER_USERNAME = "TestUser";
+	public static final String ALFRESCO_USER_PASSWORD = "Auto.m@tion";
 
 	public static final String PREFIXS_TAG = "testtag";
 
