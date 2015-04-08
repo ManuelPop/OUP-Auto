@@ -1,0 +1,2 @@
+fileName,editOfflineAction,cancelEditingAction,newUserName,userEmail,userPassword,managerLockMessage,userLockMessage,roleName,taskName
+doc.doc,Edit Offline,Cancel Editing,newTestUser,user@mail.com,pass,This document is locked by you for offline editing.,This document is locked by,Collaborator,Invitation to join

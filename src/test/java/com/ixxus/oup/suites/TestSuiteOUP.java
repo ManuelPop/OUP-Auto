@@ -4,80 +4,34 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
+import com.ixxus.oup.tests.STest23_OUP_AddTagsFromDocumentDetailsPage;
+import com.ixxus.oup.tests.STest37_OUP_RevertToAPreviousVersion;
+import com.ixxus.oup.tests.STest42_OUPVerifyUserTimeCommentForVersions;
+import com.ixxus.oup.tests.STest45_QuickSearchOUP;
+import com.ixxus.oup.tests.Test01_OUP_Login;
+import com.ixxus.oup.tests.Test06_OUP_UploadNewVersion;
+import com.ixxus.oup.tests.Test07_OUP_DocumentDetailsUploadNewVersion;
+import com.ixxus.oup.tests.Test15_OUP_VersionHistorySection;
+import com.ixxus.oup.tests.Test36_OUP_AddGroupToSiteAndSetRolesForGroup;
+import com.ixxus.oup.tests.Test38_OUP_CheckLockedContent;
+import com.ixxus.oup.tests.Test46_OUP_AddGroupToSiteAndSetRoleForUsersInGroup;
+import com.ixxus.oup.tests.Test61_OUP_UnlockContentLockedByAnotherUser;
+
 @RunWith(Suite.class)
 @SuiteClasses({
 
-        //Vanilla Alfresco Tests
-        //    STest001_CreateUserForTests.class,
-        //    Test01_Login.class,
-        //    Test02_CreateSite.class,
-        //    Test03_CreateUser.class,
-        //    Test04_DeleteUser.class,
-        //        Test05_AddNewComment.class,
-        //    Test06_UploadNewVersion.class,
-        //        Test07_DocumentDetailsUploadNewVersion.class,
-        //    Test08_DeleteSite.class,
-        //        Test09_AddTags.class,
-        //    Test10_DisableAccount.class,
-        //        Test11_DeleteComment.class,
-        //    STest12_SearchTags.class,
-        //        Test13_EditComment.class,
-        //    Test14_DocumentListView.class,
-        //        Test15_VersionHistorySection.class,
-        //    Test16_AddEditRemoveTagsFromDocLibEditView.class,
-        //        Test17_AddLargeComment.class,
-        //    Test18_AddCommentWithSpecialCharacters.class,
-        //        Test19_HideBreadcrumb.class,
-        //    Test20_DeleteTagFromTagManager.class,
-        //    Test21_FullFunctionality.class,
-        //    STest22_SearchAllTaggedItemsByClickedTagLink.class,
-        //    STest23_AddTagsFromDocumentDetailsPage.class,
-        //    Test24_AddCommentFromDocumentLibrary.class,
-        //    Test25_HideFolders.class,
-        //    Test26_ExpandSearch.class,
-        //    Test27_FavouriteSite.class,
-        //    Test28_FilterByCategory.class,
-        //    Test29_RemoveCategory.class,
-        //        Test30_CrudMetadata.class,
-        //    Test31_FavoriteObjects.class,
-        //        Test32_CrudCategoryTaxonomy.class,
-        //    Test33_AdvancedSearch_Mime.class,
-        //        Test34_CreateGroups.class,
-        //    Test35_AddUserToGroup.class,
-        //        Test36_AddGroupToSiteAndSetRolesForGroup.class,
-        //    STest37_RevertToAPreviousVersion.class,
-        //        Test38_CheckLockedContent.class,
-        //    Test39_AddCommentWithDifferentFormattingText.class,
-        //    Test40_LogoOnLoginPageIsDisplayed.class,
-        //    Test41_UploadFilesToRepository.class,
-        //        STest42_VerifyUserTimeCommentForVersions.class,
-        //    STest43_CreateNewFileVersionWithDifferentMimetype.class,
-        //        Test44_AddUsersToSiteWithDifferentRoles.class,
-        //    STest45_QuickSearch.class,
-        //    Test46_AddGroupToSiteAndSetRoleForUsersInGroup.class,
-        //    Test47_CopyTemplateFolderToSite.class,
-        //    Test48_PreviewAFile.class,
-        //    Test49_UploadFileWithDifferentRole.class,
-    //    STest50_ApplyCategoryToDocument.class,
-        //        Test51_CopyAFile.class,
-    //    STest52_DownloadAFile.class,
-        //        Test53_CreateSavedSearchInDashlet.class,
-        //    Test54_AdvancedSearch.class,
-    //    Test55_SortSearchResults.class,
-    //    Test56_UnlockContentLockedBySiteManager.class,
-        //        Test57_UploadADuplicateFile.class,
-    //    Test58_ShareSiteRolesCollaborator.class,
-        //        Test59_OverrideAlfrescoRolePermisionsToASpecificObject.class,
-        //    Test60_ConsumerRole.class,
-        //    Test61_UnlockContentLockedByAnotherUser.class,
-        //    Test62_ContributorRole.class,
-// Test63_InstantSearchResultsDocuments.class,
-    //        Test64_InstantSearchResultsPeople.class,
-    //    STest66_SearchResultsCopyAFile.class,
-//    STest67_SearchResultsMoveAFile.class,
-
-// STest_DeleteAllSites.class,
-
+// Vanilla Alfresco Tests
+		STest23_OUP_AddTagsFromDocumentDetailsPage.class,
+		STest37_OUP_RevertToAPreviousVersion.class,
+		STest42_OUPVerifyUserTimeCommentForVersions.class,
+		STest45_QuickSearchOUP.class, Test01_OUP_Login.class,
+		Test06_OUP_UploadNewVersion.class,
+		Test07_OUP_DocumentDetailsUploadNewVersion.class,
+		Test15_OUP_VersionHistorySection.class,
+		Test36_OUP_AddGroupToSiteAndSetRolesForGroup.class,
+		Test38_OUP_CheckLockedContent.class,
+		Test46_OUP_AddGroupToSiteAndSetRoleForUsersInGroup.class,
+		Test61_OUP_UnlockContentLockedByAnotherUser.class,
 })
 public class TestSuiteOUP {
 
